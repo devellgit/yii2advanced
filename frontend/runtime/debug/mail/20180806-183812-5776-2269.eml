@@ -1,0 +1,104 @@
+Message-ID: <b14bde72c166d5224b02683757690f55@localhost>
+Date: Mon, 06 Aug 2018 18:38:12 +0000
+Subject: New example.com log message
+From: email_from@gmail.com
+To: email_to@gmail.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2018-08-06 18:38:12
+[::1][-][-][warning][yii\web\User::getIdentityAndDura=
+tionFromCookie]
+Invalid auth key attempted for user '1':
+IeUXrr7iYIV8gO=
+g5_B_k4i-bN8CsqsLv
+    in
+/Applications/AMPPS/www/agenda/frontend/views=
+/layouts/left.php:18
+    in
+/Applications/AMPPS/www/agenda/frontend/vie=
+ws/layouts/main.php:47
+    in
+/Applications/AMPPS/www/agenda/frontend/c=
+ontrollers/SiteController.php:64
+2018-08-06 18:38:11 [::1][-][-][info][ap=
+plication] $_COOKIE =3D [
+    '_identity-frontend' =3D>
+'1b11c66fbb3815=
+f05e0059c3f7c033d125aefee793e9aa2729d10759b55ab096a:2:{i:0;s:18:\"_identity=
+-frontend\";i:1;s:46:\"[1,\"IeUXrr7iYIV8gOg5_B_k4i-bN8CsqsLv\",2592000]\";}=
+'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+]
+
+$_SERVER =3D [=
+
+    'TMP' =3D> '/Applications/AMPPS/tmp'
+    'HTTP_HOST' =3D> 'localho=
+st'
+    'HTTP_CONNECTION' =3D> 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_=
+REQUESTS' =3D> '1'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Macintosh; In=
+tel Mac OS X
+10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.=
+3440.84
+Safari/537.36'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/=
+xhtml+xml,application/xml;q=3D0.9,image/webp,image/apng,*/*;q=3D0.8'
+    =
+'HTTP_REFERER' =3D> 'http://localhost/agenda/'
+    'HTTP_ACCEPT_ENCODING'=
+ =3D> 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'en-US,en;q=3D0=
+.9,pt;q=3D0.8'
+    'HTTP_COOKIE' =3D>
+'_identity-frontend=3D1b11c66fbb3=
+815f05e0059c3f7c033d125aefee793e9aa2729d10759b55ab096a%3A2%3A%7Bi%3A0%3Bs%3=
+A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IeUXrr7iYIV8=
+gOg5_B_k4i-bN8CsqsLv%22%2C2592000%5D%22%3B%7D'
+    'PATH' =3D> '/usr/bin:=
+/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' =3D> ''
+    'SERVER_SOFTWA=
+RE' =3D> 'Apache/2.4.23 (Unix) PHP/7.0.10 mod_wsgi/3.5
+Python/3.5.2 OpenS=
+SL/1.0.1p'
+    'SERVER_NAME' =3D> 'localhost'
+    'SERVER_ADDR' =3D> ':=
+:1'
+    'SERVER_PORT' =3D> '80'
+    'REMOTE_ADDR' =3D> '::1'
+    'DOC=
+UMENT_ROOT' =3D> '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' =3D> 'htt=
+p'
+    'CONTEXT_PREFIX' =3D> ''
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/Appl=
+ications/AMPPS/www'
+    'SERVER_ADMIN' =3D> 'admin@localhost'
+    'SCRI=
+PT_FILENAME' =3D>
+'/Applications/AMPPS/www/agenda/frontend/web/index.php'=
+
+    'REMOTE_PORT' =3D> '65022'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'=
+
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'REQUEST_METHOD' =3D> 'GET'=
+
+    'QUERY_STRING' =3D> ''
+    'REQUEST_URI' =3D> '/agenda/frontend/we=
+b/'
+    'SCRIPT_NAME' =3D> '/agenda/frontend/web/index.php'
+    'PHP_SE=
+LF' =3D> '/agenda/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1=
+533580691.363
+    'REQUEST_TIME' =3D> 1533580691
+]

@@ -1,0 +1,150 @@
+Message-ID: <9d40eeaad9887ca40ce04787835415a0@localhost>
+Date: Tue, 07 Aug 2018 19:14:07 +0000
+Subject: New example.com log message
+From: email_from@gmail.com
+To: email_to@gmail.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2018-08-07 19:14:07
+[::1][27][iupm1er63bmmdg6oc5qd0s5hi2][warning][yii\lo=
+g\Dispatcher::dispatch]
+Unable to send log via yii\debug\LogTarget: Excep=
+tion 'Exception' with
+message 'Serialization of 'Closure' is not allowed'=
+=20
+
+in
+/Applications/AMPPS/www/agenda/vendor/yiisoft/yii2-debug/LogTar=
+get.php:57
+
+Stack trace:
+#0
+/Applications/AMPPS/www/agenda/vendor/y=
+iisoft/yii2-debug/LogTarget.php(57):
+serialize(Array)
+#1
+/Application=
+s/AMPPS/www/agenda/vendor/yiisoft/yii2-debug/LogTarget.php(118):
+yii\debu=
+g\LogTarget->export()
+#2
+/Applications/AMPPS/www/agenda/vendor/yiisoft/=
+yii2/log/Dispatcher.php(188):
+yii\debug\LogTarget->collect(Array, true)=
+
+#3
+/Applications/AMPPS/www/agenda/vendor/yiisoft/yii2/log/Logger.php(1=
+73):
+yii\log\Dispatcher->dispatch(Array, true)
+#4
+/Applications/AMPPS=
+/www/agenda/vendor/yiisoft/yii2/base/ErrorHandler.php(111):
+yii\log\Logge=
+r->flush(true)
+#5 [internal function]:
+yii\base\ErrorHandler->handleExc=
+eption(Object(ParseError))
+#6 {main}
+2018-08-07 19:14:07
+[::1][27][iu=
+pm1er63bmmdg6oc5qd0s5hi2][info][application] $_GET =3D [
+    'r' =3D> 'ag=
+endamento/index'
+]
+
+$_COOKIE =3D [
+    '_csrf-frontend' =3D>
+'b42=
+6edfdc02d5821b89c056e76fc0799865add04f5cd3641bc8688cbd0ff2c2da:2:{i:0;s:14:=
+\"_csrf-frontend\";i:1;s:32:\"iBKvJOJItf64ybuiSdBHcAYBSarkhXGS\";}'
+    '=
+advanced-frontend' =3D> 'iupm1er63bmmdg6oc5qd0s5hi2'
+    '_identity-front=
+end' =3D>
+'1e786e9793d793af5d6050dab3098f5af48144c9a1a3d4f91bffc93cbe8bb7=
+03a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[27,\"F-lrkxuuU8DVFygQc-7=
+EiUPew0TM6Bwg\",2592000]\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D>=
+ []
+    '__id' =3D> 27
+]
+
+$_SERVER =3D [
+    'TMP' =3D> '/Applica=
+tions/AMPPS/tmp'
+    'HTTP_HOST' =3D> 'localhost'
+    'HTTP_CONNECTION'=
+ =3D> 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'H=
+TTP_USER_AGENT' =3D> 'Mozilla/5.0 (Macintosh; Intel Mac OS X
+10_13_4) App=
+leWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84
+Safari/537.36'
+=
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=
+=3D0.9,image/webp,image/apng,*/*;q=3D0.8'
+    'HTTP_REFERER' =3D> 'http:/=
+/localhost/agenda/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, d=
+eflate, br'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'en-US,en;q=3D0.9,pt;q=3D0.8'=
+
+    'HTTP_COOKIE' =3D>
+'_csrf-frontend=3Db426edfdc02d5821b89c056e76fc0=
+799865add04f5cd3641bc8688cbd0ff2c2da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-fro=
+ntend%22%3Bi%3A1%3Bs%3A32%3A%22iBKvJOJItf64ybuiSdBHcAYBSarkhXGS%22%3B%7D;=
+
+advanced-frontend=3Diupm1er63bmmdg6oc5qd0s5hi2;
+_identity-frontend=3D1=
+e786e9793d793af5d6050dab3098f5af48144c9a1a3d4f91bffc93cbe8bb703a%3A2%3A%7Bi=
+%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B27%2C%22F=
+-lrkxuuU8DVFygQc-7EiUPew0TM6Bwg%22%2C2592000%5D%22%3B%7D'
+    'PATH' =3D>=
+ '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' =3D> ''
+    'SE=
+RVER_SOFTWARE' =3D> 'Apache/2.4.23 (Unix) PHP/7.0.10 mod_wsgi/3.5
+Python/=
+3.5.2 OpenSSL/1.0.1p'
+    'SERVER_NAME' =3D> 'localhost'
+    'SERVER_AD=
+DR' =3D> '::1'
+    'SERVER_PORT' =3D> '80'
+    'REMOTE_ADDR' =3D> '::1'=
+
+    'DOCUMENT_ROOT' =3D> '/Applications/AMPPS/www'
+    'REQUEST_SCHEME=
+' =3D> 'http'
+    'CONTEXT_PREFIX' =3D> ''
+    'CONTEXT_DOCUMENT_ROOT' =
+=3D> '/Applications/AMPPS/www'
+    'SERVER_ADMIN' =3D> 'admin@localhost'=
+
+    'SCRIPT_FILENAME' =3D>
+'/Applications/AMPPS/www/agenda/frontend/we=
+b/index.php'
+    'REMOTE_PORT' =3D> '60513'
+    'GATEWAY_INTERFACE' =3D=
+> 'CGI/1.1'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'REQUEST_METHOD' =
+=3D> 'GET'
+    'QUERY_STRING' =3D> 'r=3Dagendamento%2Findex'
+    'REQUE=
+ST_URI' =3D>
+'/agenda/frontend/web/index.php?r=3Dagendamento%2Findex'
+ =
+   'SCRIPT_NAME' =3D> '/agenda/frontend/web/index.php'
+    'PHP_SELF' =3D=
+> '/agenda/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 15336692=
+47.187
+    'REQUEST_TIME' =3D> 1533669247
+]

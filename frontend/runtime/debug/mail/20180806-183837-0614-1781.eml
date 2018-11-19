@@ -1,0 +1,139 @@
+Message-ID: <e57fdafe3c82ee96611c11b9b318d63c@localhost>
+Date: Mon, 06 Aug 2018 18:38:36 +0000
+Subject: New example.com log message
+From: email_from@gmail.com
+To: email_to@gmail.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2018-08-06 18:38:36
+[::1][1][sm6ut1s5ivab22hnlara8muts6][error][yii\base\=
+InvalidParamException]
+yii\base\InvalidParamException: Response content m=
+ust not be an array.
+in
+/Applications/AMPPS/www/agenda/vendor/yiisoft/y=
+ii2/web/Response.php:1020
+Stack trace:
+#0
+/Applications/AMPPS/www/age=
+nda/vendor/yiisoft/yii2/web/Response.php(313):
+yii\web\Response->prepare(=
+)
+#1
+/Applications/AMPPS/www/agenda/vendor/yiisoft/yii2/base/Applicatio=
+n.php(381):
+yii\web\Response->send()
+#2 /Applications/AMPPS/www/agenda/=
+frontend/web/index.php(20):
+yii\base\Application->run()
+#3 {main}
+201=
+8-08-06 18:38:36
+[::1][1][sm6ut1s5ivab22hnlara8muts6][info][application] =
+$_GET =3D [
+    'r' =3D> 'agendamento/delete'
+    'id' =3D> '210'
+]=
+
+
+$_COOKIE =3D [
+    '_csrf-frontend' =3D>
+'b426edfdc02d5821b89c056=
+e76fc0799865add04f5cd3641bc8688cbd0ff2c2da:2:{i:0;s:14:\"_csrf-frontend\";i=
+:1;s:32:\"iBKvJOJItf64ybuiSdBHcAYBSarkhXGS\";}'
+    'advanced-frontend' =
+=3D> 'sm6ut1s5ivab22hnlara8muts6'
+    '_identity-frontend' =3D>
+'54ae68=
+ebafb29ad2fbc525aea3afb521c692f67f656661b2716e466dba970e86a:2:{i:0;s:18:\"_=
+identity-frontend\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION =3D=
+ [
+    '__flash' =3D> []
+    '__id' =3D> 1
+]
+
+$_SERVER =3D [
+  =
+  'TMP' =3D> '/Applications/AMPPS/tmp'
+    'HTTP_HOST' =3D> 'localhost'=
+
+    'HTTP_CONNECTION' =3D> 'keep-alive'
+    'CONTENT_LENGTH' =3D> '0'=
+
+    'HTTP_ACCEPT' =3D> '*/*'
+    'HTTP_ORIGIN' =3D> 'http://localhost'=
+
+    'HTTP_X_CSRF_TOKEN' =3D>
+'UDNWRi1ScmM5cR0wZx04KiRVYHJUMAcKA1cUDk4T=
+KyEDUiQtRQo1MA=3D=3D'
+    'HTTP_X_REQUESTED_WITH' =3D> 'XMLHttpRequest'=
+
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Macintosh; Intel Mac OS X
+10_=
+13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84
+Safari/5=
+37.36'
+    'HTTP_REFERER' =3D>
+'http://localhost/agenda/frontend/web/in=
+dex.php?r=3Dagendamento%2Findex'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, d=
+eflate, br'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'en-US,en;q=3D0.9,pt;q=3D0.8'=
+
+    'HTTP_COOKIE' =3D>
+'_csrf-frontend=3Db426edfdc02d5821b89c056e76fc0=
+799865add04f5cd3641bc8688cbd0ff2c2da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-fro=
+ntend%22%3Bi%3A1%3Bs%3A32%3A%22iBKvJOJItf64ybuiSdBHcAYBSarkhXGS%22%3B%7D;=
+
+advanced-frontend=3Dsm6ut1s5ivab22hnlara8muts6;
+_identity-frontend=3D5=
+4ae68ebafb29ad2fbc525aea3afb521c692f67f656661b2716e466dba970e86a%3A2%3A%7Bi=
+%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%=
+2C2592000%5D%22%3B%7D'
+    'PATH' =3D> '/usr/bin:/bin:/usr/sbin:/sbin'
+=
+    'SERVER_SIGNATURE' =3D> ''
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 =
+(Unix) PHP/7.0.10 mod_wsgi/3.5
+Python/3.5.2 OpenSSL/1.0.1p'
+    'SERVER=
+_NAME' =3D> 'localhost'
+    'SERVER_ADDR' =3D> '::1'
+    'SERVER_PORT' =
+=3D> '80'
+    'REMOTE_ADDR' =3D> '::1'
+    'DOCUMENT_ROOT' =3D> '/Appli=
+cations/AMPPS/www'
+    'REQUEST_SCHEME' =3D> 'http'
+    'CONTEXT_PREFIX=
+' =3D> ''
+    'CONTEXT_DOCUMENT_ROOT' =3D> '/Applications/AMPPS/www'
+  =
+  'SERVER_ADMIN' =3D> 'admin@localhost'
+    'SCRIPT_FILENAME' =3D>
+'/Ap=
+plications/AMPPS/www/agenda/frontend/web/index.php'
+    'REMOTE_PORT' =3D=
+> '65230'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'SERVER_PROTOCOL' =
+=3D> 'HTTP/1.1'
+    'REQUEST_METHOD' =3D> 'POST'
+    'QUERY_STRING' =3D=
+> 'r=3Dagendamento/delete&id=3D210'
+    'REQUEST_URI' =3D>
+'/agenda/fro=
+ntend/web/index.php?r=3Dagendamento/delete&id=3D210'
+    'SCRIPT_NAME' =
+=3D> '/agenda/frontend/web/index.php'
+    'PHP_SELF' =3D> '/agenda/fronte=
+nd/web/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1533580716.678
+    'REQ=
+UEST_TIME' =3D> 1533580716
+]
